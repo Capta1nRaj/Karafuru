@@ -38,6 +38,10 @@
     gap: 8px;
 }
 
+.social-media-section a {
+    text-decoration: none;
+}
+
 .fa-brands-outer-box {
     display: flex;
     width: 30px;
