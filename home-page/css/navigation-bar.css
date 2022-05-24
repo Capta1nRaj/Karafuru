@@ -1,0 +1,112 @@
+/* Navigation Bar Configuration */
+.navigation-bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    height: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Left Section Configuration */
+.left-section {
+    position: relative;
+    display: flex;
+    margin-top: 86px;
+    margin-left: 120px;
+}
+
+.left-section img {
+    width: 138px;
+}
+
+/* Right Section Configuration */
+.right-section {
+    position: relative;
+    display: flex;
+    margin-right: 550px;
+    max-width: 0;
+    font-family: Mabook;
+    gap: 20px;
+}
+
+.navbar-right-section-text {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navbar-right-section-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-right-section-text:hover a {
+    text-decoration: underline;
+}
+
+.text-shop {
+    cursor: default;
+    color: grey;
+    text-decoration: none;
+}
+
+/* Social Media Aligned To Right Section Configuration */
+.social-media-section {
+    position: relative;
+    display: flex;
+    max-width: 0;
+    gap: 8px;
+}
+
+.fa-brands-outer-box {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.twitter-outer-box {
+    background: #00acee;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.twitter-outer-box:hover {
+    background-color: #0979a5;
+}
+
+.instagram-outer-box {
+    background-color: #DD2A7B;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.instagram-outer-box:hover {
+    background-color: #b80a58;
+}
+
+.discord-outer-box {
+    background-color: #5865F2;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.discord-outer-box:hover {
+    background-color: #1726d1;
+}
+
+.social-media-section a {
+    text-decoration: none;
+}
