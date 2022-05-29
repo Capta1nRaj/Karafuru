@@ -57,23 +57,6 @@
     color: white;
 }
 
-.navigation-bar .menu .right-section-socials .fa-instagram {
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
 .navigation-bar .menu .right-section-socials {
     border-radius: 100%;
     border: 2px solid white;
