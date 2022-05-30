@@ -1,13 +1,17 @@
 .second-section {
-    background-color: black;
+    position: relative;
     color: white;
-    border-top: 5px solid #ff1a88;
-    border-bottom: 5px solid #ffea41;
-    font-size: 60px;
     font-family: 'Mabook', sans-serif;
-    transform: rotate(3deg);
+}
+
+.second-section .second-section-text-scroll marquee {
+    transform: rotate(3.2deg);
     margin: -60px -20px 0 -6px;
     white-space: nowrap;
+    font-size: 60px;
+    background-color: black;
+    border-top: 5px solid #ff1a88;
+    border-bottom: 5px solid #ffea41;
 }
 
 .second-section span {
@@ -19,7 +23,7 @@
 }
 
 .second-section .second-section-image-1 img {
-    margin: -160px 0 0 40px;
+    margin: -196px 0 0 40px;
     width: 340px;
     transform: rotate(-3deg);
 }
@@ -28,8 +32,54 @@
     display: none;
 }
 
+.second-section .second-section-background-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/below-the-marquee-image.png");
+    background-position: -2px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1154px;
+    margin-top: -32px;
+}
+
+.second-section .second-section-background-image .second-section-text-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: -570px auto 0;
+    padding: 0 60px;
+    line-height: 30px;
+}
+
+.second-section .second-section-background-image .second-section-text-container .second-section-text-container-text {
+    padding: 40px 0;
+}
+
+.second-section .second-section-background-image .second-section-text-container .text-2 {
+    padding-right: 380px;
+}
+
+.second-section .roadmap-container {
+    position: absolute;
+    bottom: calc(100% - 27rem);
+    width: 20rem;
+    right: 6rem;
+    z-index: 3;
+}
+
+.second-section .roadmap-container .roadmap {
+    width: 315px;
+}
+
 /* Responsive */
-@media (max-width:560px) {}
+@media (max-width:840px) {
+    .second-section-background-image .second-section-text-container-text {
+        font-size: 14px !important;
+    }
+}
 
 @media (max-width:800px) {
     .second-section .second-section-image-1 {
@@ -46,24 +96,48 @@
         bottom: 0;
         left: 0;
         right: 0;
-        margin-top: -546px;
-        margin-left: -22px;
+        margin-top: -584px;
     }
 
     .second-section .second-section-image-2 img {
-        transform: rotate(-3deg);
         width: 200px;
     }
 
-    .second-section {
+    .second-section .second-section-text-scroll marquee {
+        font-family: 'Mabook', sans-serif;
+        transform: rotate(3.2deg);
+        margin: -60px -20px 0 -6px;
+        white-space: nowrap;
+        font-size: 24px;
         background-color: black;
-        color: white;
         border-top: 5px solid #ff1a88;
         border-bottom: 5px solid #ffea41;
-        font-size: 34px;
-        font-family: 'Mabook', sans-serif;
-        transform: rotate(3deg);
-        margin: -40px -20px 0 -6px;
-        white-space: nowrap;
+    }
+
+    .second-section .roadmap-container {
+        display: none;
+    }
+
+    .second-section .second-section-background-image .second-section-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1140px;
+        margin: -750px auto 0;
+        padding: 0 10px;
+        line-height: 30px;
+    }
+
+    .second-section .second-section-background-image .second-section-text-container .second-section-text-container-text {
+        padding: 0;
+    }
+
+    .second-section .second-section-background-image .second-section-text-container .text-1 {
+        margin-bottom: 20px;
+    }
+
+    .second-section .second-section-background-image .second-section-text-container .text-2 {
+        margin-top: 20px;
+        padding-right: 0;
     }
 }
