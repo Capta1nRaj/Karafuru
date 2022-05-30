@@ -11,3 +11,9 @@ Started this project on 20-05-2022, then I made a PC page, but it was not respon
 2. 1st section has 2 images for PC + Tablet & for Mobile.
 3. 2nd section has marquee text.
 4. More To Be Added In 2nd section.
+
+30-05-2022
+1. Almost completed the webiste.
+2. Only to add roadmap onclick image.
+3. Transition in menu also needed.
+4. Transition on all page may be added if I don't start something new, you got it about this na? XD
