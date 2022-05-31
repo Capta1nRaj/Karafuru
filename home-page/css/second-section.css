@@ -122,6 +122,15 @@
     border-bottom: 5px solid #dbff08;
 }
 
+.roadmap-onclick-image img {
+    position: fixed;
+    width: 100%;
+    inset: 0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    align-items: center;
+}
+
 /* Responsive */
 @media (max-width:1070px) {
     .second-section .second-section-background-image .second-section-text-container {
@@ -159,6 +168,25 @@
         bottom: calc(50% - -3rem);
         left: calc(50% - 5.5rem);
         transform: rotate(104deg);
+    }
+}
+
+@media (min-width: 801px) and (max-width:990px) {
+    .second-section .check-out-my-trailer-image img {
+        position: absolute;
+        width: 12rem;
+        bottom: calc(50% - 0rem);
+        left: calc(50% - 5.5rem);
+        transform: rotate(104deg);
+    }
+
+    .second-section .check-out-my-trailer-video {
+        position: absolute;
+        bottom: 10rem !important;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
     }
 }
 
