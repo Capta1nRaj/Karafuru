@@ -240,7 +240,7 @@
     .second-section .second-section-text-scroll-2 marquee {
         font-family: 'Mabook', sans-serif;
         transform: rotate(-5.5deg);
-        margin: -60px -20px 14px -80px;
+        margin: -60px -20px 22px -80px;
         white-space: nowrap;
         font-size: 24px;
         background-color: black;
