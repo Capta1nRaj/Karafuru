@@ -17,3 +17,6 @@ Started this project on 20-05-2022, then I made a PC page, but it was not respon
 2. Only to add roadmap onclick image.
 3. Transition in menu also needed.
 4. Transition on all page may be added if I don't start something new, you got it about this na? XD
+
+12-06-2022
+1. When you click on roadmap image, it will pop-out an image, but to close the image in pc version, you need to refresh the page or again click on the roadmap image, but it is fully functional for mobiles.
