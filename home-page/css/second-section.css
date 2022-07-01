@@ -122,7 +122,20 @@
 }
 
 .roadmap-onclick-image .pc-tablet-image {
-    display: none;
+    display: block;
+}
+
+.roadmap-onclick-image .pc-tablet-image .pc-tablet-image-close-button {
+    inset: 0;
+}
+
+.roadmap-onclick-image .pc-tablet-image .pc-tablet-image-close-button img {
+    cursor: pointer;
+    width: 32px;
+    margin: 0;
+    position: fixed;
+    top: calc(100% - 37rem);
+    left: 96%;
 }
 
 .roadmap-onclick-image .pc-tablet-image img {
@@ -135,7 +148,7 @@
     align-items: center;
     z-index: 100;
     border-radius: 20px;
-    margin: auto 0;
+    margin: auto;
 }
 
 .roadmap-onclick-image .pc-tablet-image.active {
