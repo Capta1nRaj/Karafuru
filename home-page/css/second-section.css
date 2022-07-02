@@ -122,7 +122,7 @@
 }
 
 .roadmap-onclick-image .pc-tablet-image {
-    display: block;
+    display: none;
 }
 
 .roadmap-onclick-image .pc-tablet-image .pc-tablet-image-close-button {
